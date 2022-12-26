@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Park</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header>
+        <div class="text-box">
+        <h1 id="title">WELCOME TO SOUTH PARK!</h1>
+        <HR></HR>
+        <p id="description">Tell us about your experience with south park</p>
+        </div>
+    </header>
+    <main class="container">
+        <form id="servey-form" action="website.html" method="post" autocomplete="on">
+            <div class="labels">
+                <label id="name-label" for="name">*Full Name</label>
+            </div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="name" placeholder="Enter your name" autofocus required>
+            </div>
+            <div class="labels">
+                <label for="email">*Email</label>
+            </div>
+            <div class="input-tab">
+                <input class="input-field" type="email" id="email" placeholder="email@email.com" required multiple>
+            </div>
+            <div class="labels">
+                <label for="age">*Age</label>
+            </div>
+            <div class="input-tab">
+                <input class="input-field" type="number" name="age" id="age" value="15">
+            </div>
+            <div class="labels">
+                <label for="dropdown">How do you watch South Park?</label>
+            </div>
+            <div class="input-tab">
+                <select class="input-field" name="watch" id="dropdown">
+                    <option value="" selected disabled>Select an option</option>
+                    <option value="" sele>Website</option>
+                    <option value="">Hulu</option>
+                    <option value="">YouTube</option>
+                    <option value="">TV</option>
+                    <option value="">Other</option>
+                </select>
+            </div>
+            <div class="labels">
+                <label for="like">How much do you like South Park?</label>
+            </div>
+            <div class="input-tab">
+                <input type="radio" id="like" name="radio-button" value="love">I love it! <br>
+                <input type="radio" id="like" name="radio-button" value="like">I like it <br>
+                <input type="radio" id="like" name="radio-button" value="ok" >It's Ok <br>
+                <input type="radio" id="like" name="radio-button" value="Nah">Not really <br>
+            </div>
+            <div class="labels">
+                <label for="dropdown">How many sessions of South Park have you watched?</label>
+            </div>
+            <div class="input-tab">
+                <select class="input-field" name="" id="dropdown">
+                    <option value="" selected disabled>Select an option</option>
+                    <option value="">0-5</option>
+                    <option value="">6-10</option>
+                    <option value="">10-15</option>
+                    <option value="">15-21</option>
+                </select>
+            </div>
+            <div class="labels">
+                <label for="withwhome">Who do you watch South Park with? <br>(Check all the apply): </label>
+            </div>
+            <div class="input-tab">
+                <input type="checkbox" id="withwhome" value="">Alone <br>
+                <input type="checkbox" id="withwhome" value="">Frienda <br>
+                <input type="checkbox" id="withwhome" value="">Family <br>
+                <input type="checkbox" id="withwhome" value="">Partner <br>
+                <input type="checkbox" id="withwhome" value="">Other <br>
+            </div>
+            <div class="labels">
+                <label for="textarea">Tell us more about your favorite character(s) or episode(s)</label>
+            </div>
+            <div class="input-tab">
+                <textarea class="input-field" name="textarea" id="textarea" cols="40" rows="10" placeholder="Your comments..."></textarea>
+            </div>
+            <div class="btn">
+            <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </main>     
+</body>
+<footer>
+    <p>&copy2018 Linh Huynh</p>
+</footer>
+</html>
+

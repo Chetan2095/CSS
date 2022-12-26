@@ -1,0 +1,141 @@
+
+        body, html{
+            /* background-color: #161514; */
+            color: #ffff;
+            font-family:Arial, Helvetica, sans-serifß;
+            margin: 0;
+            padding: 0px;
+            background-color: transparent;
+        }
+        body{
+            /* background-color: #c27f3c; */
+            font-size: 1.2em;
+            background: url(https://wallpapercave.com/wp/Fdh76FQ.jpg);
+        }
+        .text-box{
+            background-color: rgba(230, 126, 34, 0.8);
+            border-radius: 20px;
+            margin: 2em auto;
+            padding: 20px;
+            width: 90%;
+        }
+        #title{
+            /* background-color: #efe7e1; */
+            margin: 0;
+            padding: 0;
+            font-size: 2.5em;
+            color: #ffff;
+            text-align: center;
+            /* letter-spacing: 2px; */
+            word-spacing: 5px;
+            line-height: 1em;
+            /* font-weight: bold; */
+        }
+        hr{
+            background-color: #11100f;
+            width: 70%;
+            margin: 10px auto;
+        }
+        #description{
+            /* background-color: #eee3da; */
+            display: block;
+            margin: 0;
+            padding: 0%;
+            text-align: center;
+            font-size: 1.2em;
+            line-height: 1.2em;
+        }
+        .container{
+            /* background-color: #e67e22; */
+            background-color: rgba(22, 160, 133, 0.7);
+            border-radius: 20px;
+            margin: auto;
+            width: 90%;
+            padding: 1em;
+        }
+        #survey-form{
+            /* background-color: #e67e22; */
+            margin: 0 auto;
+            /* width: 80%; */
+            /* padding: 10px; */
+        }
+        .labels{
+            /* background-color: #e67e22; */
+            display: inline-block;
+            width: 40%;
+            text-align: right;
+            vertical-align: top;
+            margin-top: 20px
+        }
+        .input-tab{
+            /* background-color: #e67e22; */
+            display: inline-block;
+            width: 50%;
+            text-align: left;
+            margin-left: 10px;
+
+        }
+        .input-field{
+            /* Visible during filling the form */
+            display: inline-block;
+            width: 100%;
+            margin: 18px 0 0 10px;
+            padding: 5px;
+            border: 1px solid #e67e22;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: bold;      
+            /* background-color: #e67e22; */
+
+        }
+        input{
+            margin: 7px;
+            /* background-color: #e67e22; */
+        }
+        #dropdown{
+            width: 100%;
+            margin: 20px 0 10px 10px;
+            padding: 5px;
+            border: 1px solid #e67e22;
+            /* background-color: #e67e22; */
+        }
+        .btn{
+            text-align: center;
+            width: 98%;
+            margin: 10px;
+            border: saddlebrown;
+            /* background-color: #e9e3df; */
+        }
+        button{
+            border: 1px solid;
+            background-color: rgba(230, 126, 34, 0.8);
+            border-radius: 5px;
+            height: 30px;
+            width: 80px;
+            color: #e9e3df;
+            /* padding: 5px 5px; */
+            font-size: large;
+            font-weight: bold;
+            font-family: inherit;
+            /* padding: 10px 15px; */
+            /* margin:auto; */
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: rgba(21, 20, 20, 0.8);
+            
+
+            
+        }
+        footer{
+            text-align: center;
+            font-size: small;
+            color: #11100f;
+            margin: 20px;
+            /* background-color: #86c6e1; */
+        }
+        footer p{
+            /* background-color: #e67e22; */
+            font-size: small;
+        }
