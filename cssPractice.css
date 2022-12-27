@@ -18,5 +18,6 @@
     width: 460px;
     padding: 15px;
     border: 15px solid rgb(36, 7, 125);
-    margin: 15px;
+    /* margin: 15px; */
+    outline: 15px solid rgb(244, 10, 10);
 }
