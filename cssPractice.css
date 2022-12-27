@@ -18,6 +18,14 @@
     width: 460px;
     padding: 15px;
     border: 15px solid rgb(36, 7, 125);
-    /* margin: 15px; */
+    margin: 15px;
     outline: 15px solid rgb(244, 10, 10);
+}
+.outline{
+    outline:2px solid rgb(12, 12, 12);
+    outline-offset: 20px;
+    width: 80%;
+    padding: 10px;
+    border:10px solid rgb(245, 2, 2);
+    margin: 20px;  
 }
