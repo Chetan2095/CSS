@@ -1,3 +1,6 @@
+body{
+    color: rgb(38, 38, 109);   /*The default text color for a page is defined in the body selector*/
+}
 #WidhtHeight{
     background-color: aqua;
     border: 5px solid blueviolet;
@@ -29,3 +32,27 @@
     border:10px solid rgb(245, 2, 2);
     margin: 20px;  
 }
+h1{
+    color: black;
+}
+h2{
+    color: crimson;
+}
+h1#bcc{
+    background-color: black;
+    color: white;
+    width: 40%;
+}
+h2#bcc{
+    background-color: rgb(234, 234, 11);
+    color: rgb(66, 8, 242);
+    width: 60%;
+
+}
+h3#bcc{
+    background-color: rgb(6, 250, 27);
+    color: rgb(234, 13, 13);
+    width: 80%;
+
+}
+
