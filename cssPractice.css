@@ -1,0 +1,22 @@
+#WidhtHeight{
+    background-color: aqua;
+    border: 5px solid blueviolet;
+    width: 700px;
+    /* width: 1700px;       ??? : if browser window < width then a horizontal scrollbar is added automatically */
+    height: 50px;
+    margin: 50px 0 0 0;
+    
+}
+#maxWidth{
+    background-color: blueviolet;
+    /* width: 1400px; */
+    /* width: 1700px; */
+    max-width: 2000px;       /*Using max-width will improve the browser's handling of small windows.*/
+}
+#boxModel{
+    background-color:rgb(197, 116, 84);
+    width: 460px;
+    padding: 15px;
+    border: 15px solid rgb(36, 7, 125);
+    margin: 15px;
+}
