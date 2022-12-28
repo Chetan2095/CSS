@@ -1,0 +1,209 @@
+body{
+    color: rgb(38, 38, 109);   /*The default text color for a page is defined in the body selector*/
+}
+h2{
+    color: black;
+}
+#WidhtHeight{
+    background-color: aqua;
+    border: 5px solid blueviolet;
+    width: 700px;
+    /* width: 1700px;       ??? : if browser window < width then a horizontal scrollbar is added automatically */
+    height: 50px;
+    margin: 50px 0 0 0;
+    
+}
+#maxWidth{
+    background-color: blueviolet;
+    /* width: 1400px; */
+    /* width: 1700px; */
+    max-width: 2000px;       /*Using max-width will improve the browser's handling of small windows.*/
+}
+#boxModel{
+    background-color:rgb(197, 116, 84);
+    width: 460px;
+    padding: 15px;
+    border: 15px solid rgb(36, 7, 125);
+    margin: 15px;
+    outline: 15px solid rgb(244, 10, 10);
+}
+.outline{
+    outline:2px solid rgb(12, 12, 12);
+    outline-offset: 20px;
+    width: 80%;
+    padding: 10px;
+    border:10px solid rgb(245, 2, 2);
+    margin: 20px;  
+}
+
+.red{
+    color: red;
+}
+h1#bcc{
+    background-color: black;
+    color: white;
+    width: 40%;
+}
+h2#bcc{
+    background-color: rgb(234, 234, 11);
+    color: rgb(66, 8, 242);
+    width: 60%;
+
+}
+h3#bcc{
+    background-color: rgb(6, 250, 27);
+    color: rgb(234, 13, 13);
+    width: 80%;
+
+}
+h2.right{
+    text-align: right;
+    background-color: chartreuse;
+}
+h2.left
+{
+    text-align: left;
+    background-color: chartreuse;
+
+}
+h2.center{
+    text-align: center;
+    background-color: chartreuse;
+
+}
+#justify{
+    text-align: justify;
+    width: 50%;
+    
+}
+p.center{
+    text-align-last: center;
+}
+p.right{
+    text-align-last: right;
+}
+p.justify{
+    text-align-last: justify;
+}
+p.rtl{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+
+    background-color: rgb(237, 219, 16);
+    height: 40px;
+    font-size: x-large;
+}
+strong.sub{
+    vertical-align:sub;
+}
+strong.super{
+    vertical-align: super;
+}
+strong.text-bottom{
+    vertical-align:text-bottom;
+}
+strong.bottom{
+    vertical-align:bottom;
+}
+strong.texttop{
+    vertical-align:text-top;
+}
+strong.top{
+    vertical-align:top;
+}
+strong.middle{
+    vertical-align:middle;
+}
+strong.baseline{
+    vertical-align:baseline;
+}
+
+
+#overline{
+    text-decoration: overline;
+}
+#linethrough{
+    text-decoration: line-through;
+}
+#underline{
+    text-decoration: underline;  
+}
+.red{
+    text-decoration-color: red;
+}
+#overunder{
+    text-decoration: overline underline;
+}
+
+#solid{
+    
+    text-decoration:underline solid;
+}
+#double{
+    text-decoration: line-through double;
+}
+#dotted{
+    text-decoration: overline dotted;
+}
+#wavy{
+    text-decoration: underline overline  red wavy 3px;
+}
+#thick{
+    text-decoration: underline orangered double 3px;
+}
+a{
+    text-decoration: none;
+}
+
+#uppercase{
+    text-transform: uppercase;
+}
+#lowercase{
+    text-transform: lowercase;
+}
+#capatalize{
+    text-transform: capitalize;
+}
+
+#indentation{
+    text-indent: 100px;
+}
+#word-spacing{
+    word-spacing: 10px;
+}
+#letter-spacing{
+    letter-spacing: 5px;
+}
+.small{
+    line-height: 0.7;
+}
+.big{
+    line-height: 2;
+}
+.WhiteSpace{
+    white-space:pre;
+}
+.shadow1{
+    text-shadow: 4px 4px 2px red;
+}
+.shadow2{
+    text-shadow: 4px 4px 2px red, 0 0 10px blue, 0 0 5px darkblue;
+}
+
+
+#family{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.pixel{
+    font-size: 40px;
+}
+.em{
+    font-size: 2em;
+}
+.percentage{
+    font-size: 100%;
+
+}
+
+
