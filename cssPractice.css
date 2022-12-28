@@ -165,4 +165,23 @@ a{
     text-transform: capitalize;
 }
 
+#indentation{
+    text-indent: 100px;
+}
+#word-spacing{
+    word-spacing: 10px;
+}
+#letter-spacing{
+    letter-spacing: 5px;
+}
+.small{
+    line-height: 0.7;
+}
+.big{
+    line-height: 2;
+}
+.WhiteSpace{
+    white-space:pre;
+}
+
 
