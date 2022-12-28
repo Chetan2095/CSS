@@ -1,9 +1,6 @@
 body{
     color: rgb(38, 38, 109);   /*The default text color for a page is defined in the body selector*/
-}
-h2.black{
-    color: black;
-}
+
 #WidhtHeight{
     background-color: aqua;
     border: 5px solid blueviolet;
@@ -35,11 +32,8 @@ h2.black{
     border:10px solid rgb(245, 2, 2);
     margin: 20px;  
 }
-h1{
+h1,h2{
     color: black;
-}
-h2{
-    color: crimson;
 }
 h1#bcc{
     background-color: black;
