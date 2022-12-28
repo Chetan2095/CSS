@@ -1,7 +1,7 @@
 body{
     color: rgb(38, 38, 109);   /*The default text color for a page is defined in the body selector*/
 }
-h2.black{
+h2{
     color: black;
 }
 #WidhtHeight{
@@ -35,10 +35,8 @@ h2.black{
     border:10px solid rgb(245, 2, 2);
     margin: 20px;  
 }
-h1{
-    color: black;
-}
-h2{
+
+.red{
     color: red;
 }
 h1#bcc{
@@ -121,5 +119,50 @@ strong.baseline{
 }
 
 
+#overline{
+    text-decoration: overline;
+}
+#linethrough{
+    text-decoration: line-through;
+}
+#underline{
+    text-decoration: underline;  
+}
+.red{
+    text-decoration-color: red;
+}
+#overunder{
+    text-decoration: overline underline;
+}
+
+#solid{
+    
+    text-decoration:underline solid;
+}
+#double{
+    text-decoration: line-through double;
+}
+#dotted{
+    text-decoration: overline dotted;
+}
+#wavy{
+    text-decoration: underline overline  red wavy 3px;
+}
+#thick{
+    text-decoration: underline orangered double 3px;
+}
+a{
+    text-decoration: none;
+}
+
+#uppercase{
+    text-transform: uppercase;
+}
+#lowercase{
+    text-transform: lowercase;
+}
+#capatalize{
+    text-transform: capitalize;
+}
 
 
