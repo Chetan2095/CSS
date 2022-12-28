@@ -1,6 +1,9 @@
 body{
     color: rgb(38, 38, 109);   /*The default text color for a page is defined in the body selector*/
 }
+h2.black{
+    color: black;
+}
 #WidhtHeight{
     background-color: aqua;
     border: 5px solid blueviolet;
@@ -55,4 +58,68 @@ h3#bcc{
     width: 80%;
 
 }
+h2.right{
+    text-align: right;
+    background-color: chartreuse;
+}
+h2.left
+{
+    text-align: left;
+    background-color: chartreuse;
+
+}
+h2.center{
+    text-align: center;
+    background-color: chartreuse;
+
+}
+#justify{
+    text-align: justify;
+    width: 50%;
+    
+}
+p.center{
+    text-align-last: center;
+}
+p.right{
+    text-align-last: right;
+}
+p.justify{
+    text-align-last: justify;
+}
+p.rtl{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+
+    background-color: rgb(237, 219, 16);
+    height: 40px;
+    font-size: x-large;
+}
+strong.sub{
+    vertical-align:sub;
+}
+strong.super{
+    vertical-align: super;
+}
+strong.text-bottom{
+    vertical-align:text-bottom;
+}
+strong.bottom{
+    vertical-align:bottom;
+}
+strong.texttop{
+    vertical-align:text-top;
+}
+strong.top{
+    vertical-align:top;
+}
+strong.middle{
+    vertical-align:middle;
+}
+strong.baseline{
+    vertical-align:baseline;
+}
+
+
+
 
